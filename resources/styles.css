@@ -1,0 +1,125 @@
+
+
+body{
+  background-color: black;
+}
+
+.head {
+  padding-top: 10px;
+}
+
+.aboutme{
+  color: white;
+  width: 60%;
+}
+
+.nav h2, .container2header{
+  color: white;
+  text-align: center;
+}
+
+.mep{
+  font-size: 26px;
+  padding: 20px 15px 15px;
+}
+
+.me img {
+  border-radius: 50%;
+}
+
+.proj{
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.container-1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin: 0;
+  position: relative;
+}
+
+.column img {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  vertical-align: middle;
+  object-fit: contain;
+  border: 1px solid red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8{
+  display: none;
+  position: absolute;
+  padding: 1em;
+  font-weight: bold;
+}
+
+.middlelong{
+  position: relative;
+  top: 8%;
+
+}
+
+.middleshort{
+  position: relative;
+  top: 0%;
+
+}
+
+.middlefit{
+  position: relative;
+  top: 25%;
+}
+
+.footer{
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.footer a{
+ text-decoration: none;
+ color: white;
+}
+
+a:hover{
+  color: yellow;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
