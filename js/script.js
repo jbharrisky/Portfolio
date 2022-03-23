@@ -19,6 +19,9 @@ function test1(){
   document.getElementById("text1").setAttribute(
     "style", "font-size: 36px; display: block; text-align: center; color: white;"
   );
+
+  document.getElementById("pic1").style.cursor = "pointer";
+
   //first pic fade out
 }
 function out1(){
@@ -38,6 +41,8 @@ function test2(){
   document.getElementById("text2").setAttribute(
     "style", "font-size: 36px; display: block; text-align: center; color: white;"
   );
+
+  document.getElementById("pic2").style.cursor = "pointer";
   // 2nd pic fade out
 }
 function out2(){
@@ -57,6 +62,8 @@ function test3(){
   document.getElementById("text3").setAttribute(
     "style", "font-size: 36px; display: block; text-align: center; color: white;"
   );
+
+  document.getElementById("pic3").style.cursor = "pointer";
   //3rd pic fade out
 }
 function out3(){
@@ -76,6 +83,8 @@ function test4(){
   document.getElementById("text4").setAttribute(
     "style", "font-size: 36px; display: block; text-align: center; color: white;"
   );
+
+  document.getElementById("pic4").style.cursor = "pointer";
   //4th pic fade out
 }
 function out4(){
@@ -94,6 +103,8 @@ function test5(){
   document.getElementById("text5").setAttribute(
     "style", "font-size: 36px; display: block; text-align: center; color: white;"
   );
+
+  document.getElementById("pic5").style.cursor = "pointer";
   //5th pic fade out
 }
 function out5(){
@@ -113,6 +124,8 @@ function test6(){
   document.getElementById("text6").setAttribute(
     "style", "font-size: 36px; display: block; text-align: center; color: white;"
   );
+
+  document.getElementById("pic6").style.cursor = "pointer";
   //6th pic fade out
 }
 function out6(){
@@ -132,6 +145,8 @@ function test7(){
   document.getElementById("text7").setAttribute(
     "style", "font-size: 36px; display: block; text-align: center; color: white;"
   );
+
+  document.getElementById("pic7").style.cursor = "pointer";
   //7th pic fade out
 }
 function out7(){
@@ -151,6 +166,8 @@ function test8(){
   document.getElementById("text8").setAttribute(
     "style", "font-size: 36px; display: block; text-align: center; color: white;"
   );
+
+  document.getElementById("pic8").style.cursor = "pointer";
   //8th pic fade out
 }
 function out8(){

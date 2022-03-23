@@ -27,6 +27,8 @@ body{
   border-radius: 50%;
 }
 
+
+
 .proj{
   font-size: 40px;
   letter-spacing: 5px;
@@ -60,7 +62,9 @@ body{
   width: 100%;
   vertical-align: middle;
   object-fit: contain;
+
 }
+
 
 * {
   box-sizing: border-box;
