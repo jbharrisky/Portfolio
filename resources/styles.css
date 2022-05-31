@@ -1,5 +1,6 @@
 body {
  background-color: black;
+ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"
 }
 
 .head {
@@ -17,7 +18,7 @@ body {
 }
 
 .aboutme p {
-  padding: 8px 12px;
+  padding: 8px 20px;
 }
 
 .me img {
@@ -55,4 +56,10 @@ justify-content: space-evenly;
 
 .linked, .git {
 
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
 }
