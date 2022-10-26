@@ -33,6 +33,12 @@ body {
   color: white;
 }
 
+figcaption{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
 
 .projcontain {
 
